@@ -27,6 +27,7 @@ The virtual environnement allows you to install packages only for this project. 
 
 For this project I used a mySQL database with SQLAlchemy as an abstraction layer but you should be able to use other databases such as postgreSQL or SQLite, you just have to put the URI of your database in blackjack.py on this line:
 `app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@server/db_name'`
+
 You will also need to create an empty database before starting the server. SQLAlchemy will then automatically create the tables.
 
 # IV) How to start the API
