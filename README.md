@@ -31,4 +31,6 @@ You will also need to create an empty database before starting the server. SQLAl
 
 # IV) How to start the API
 
-In order to start the API you only need to execute the blackjack.py with this command: `python3 blackjack.py`. Now that the API server is running you can send requests (see introduction) by typing this URL: `localhost:<port_number>/`. The port number should be displayed in your terminal when starting the server (the default port number should be 5000). It is recommended to use a tool such as Postman which allows you to specify the request method.
+In order to start the API you only need to execute the blackjack.py with this command: `python3 blackjack.py`. Now that the API server is running you can send requests (see introduction) by typing this URL for exemple: `localhost:<port_number>/deck/new`. 
+
+The port number should be displayed in your terminal when starting the server (the default port number should be 5000). It is recommended to use a tool such as Postman which allows you to specify the request method.
